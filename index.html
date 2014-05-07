@@ -17,22 +17,84 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+      <style>
+        .header-unit {
+          height: 412px;
+          border-right:none;
+          border-left: none;
+          position: relative;
+        }
+        #video-container {
+            position: absolute;
+        }
+        #video-container {
+            top:0%;
+            left:0%;
+            height:100%;
+            width:100%;
+            overflow: hidden;
+        }
+        video {
+            position:absolute;
+            z-index:0;
+        }
+        video.fillWidth {
+            width: 100%;
+        }
+      </style>
   </head>
 
   <body>
     <div class="container">
 
-      <div class="page-header">
-        <h1>Hovermarks</h1>
-        <p class="lead">Quickly and easily annotate a bookshelf</p>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h1>Hovermarks</h1>
+            <p class="lead">Quickly and easily annotate a bookshelf</p>
+        </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">intro image here</div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class="header-unit">
+                <div id="video-container">
+                    <video autoplay loop class="fillWidth">
+                        <source src="img/final-small.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
+                </div>
+            </div>
+          </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-10 col-sm-offset-1"></div>
+        <div class="col-sm-8 col-sm-offset-2">
+            <h2>Hovermarks?</h2>
+            <p>Hovermarks are tool for annotating bookshelves.</p>
+            <p>They're cheap. They're easy. They're ephemeral. They're fun.</p>
+            <p>Hovermarks are papercraft. You print out a pattern, cut, and fold.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h2>How they work</h2>
+            <p>Hovermarks are papercraft. They're nothing more than a bookmark that faces the spine of the book.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <h2>Get and share</h2>
+            <p>We have a couple of patterns here to get your started. Print them out, cut them, and fold them.</p>
+            <p>We only have two templates now and are looking for others. If you create a template, please <a href="mailto:lil@law.harvard.edu">send it to us</a>.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+            <img src="img/sign.jpg" class="img-responsive"></div>
+        </div>
       </div>
 
 
