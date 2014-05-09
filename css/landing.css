@@ -47,3 +47,24 @@ p {
     font-size: 15px;
     color: #444;
 }
+
+.branding {
+    margin-top:20px;
+}
+
+.logo {
+    margin-top:-17px;
+}
+
+.footer img {
+    height: 50px;
+    margin-left: 10px;
+    float: right;
+}
+
+.footer a {
+    font-size: 13px;
+    martin-top -10px;
+    color: #444;
+    float: right;
+}
