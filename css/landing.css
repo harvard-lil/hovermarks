@@ -1,6 +1,12 @@
 /* footer start */
+
+.footer {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
 .branding {
     margin-top:20px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -67,18 +73,22 @@
 p {
     color: #555;
     font: 300 19px/1.4 "lato";
+    text-align: justify;
 }
 
 p.header-text {
     /*font: 100 65px/1.4 "lato";*/
-    font: 100 85px/1 "'Merriweather', serif";
-    color: #227a9f;
-    margin-top: 55px;
+    font: 400 85px/1 "'Merriweather', serif";
+    font-size: 75px;
+    color: #0a46e1;
+    margin-top: 110px;
+
+    font-family: 'Merriweather', serif;
 }
 
 p.sub-desc {
-    margin-top: 10px;
-    margin-bottom:40px;
+    margin-top: 15px;
+    margin-bottom:50px;
 }
 
 .illustrated-stack {
@@ -100,14 +110,14 @@ p.sub-desc {
 
 .pattern-container {
     display:inline-block;
-    padding: 25px;
-    border: 1px #eee solid;
+    padding: 22px;
+    border: 2px #ccc solid;
     border-radius: 4px/2px;
     margin: 0 15px; 0 15px;
 }
 
 .pattern-container:hover {
-    border-color: #227a9f;
+    border-color: #0a46e1;
 }
 
 .patterns a:hover {
@@ -122,4 +132,22 @@ p.sub-desc {
     margin-top: 25px;
     color: #333;
     text-align: center;
+}
+
+.pattern-text {
+    border-top: 1px solid #888;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+.pattern-text .pattern-title {
+    font-size: 17px;
+    margin-top: 6px;
+}
+
+.pattern-text .pattern-link {
+    font-size: 20px;
+    color: #0a46e1;
+    margin-top: 20px;
+    font-weight: 400;
 }
