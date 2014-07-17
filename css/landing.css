@@ -78,7 +78,7 @@ p.header-text {
 }
 
 .illustrated-stack {
-    max-width: 370px;
+    display: block;
 }
 
 p.sub-desc {
@@ -164,7 +164,7 @@ p.sub-desc {
 
 @media (max-width:767px) {
     p.header-text {
-        margin-top: 120px;
+        margin-top: 0px;
         font: 400 85px/1 "'Merriweather', serif";
     }
     .illustrated-stack {
@@ -174,20 +174,19 @@ p.sub-desc {
 
 @media (min-width:768px) {
     p.header-text {
-        margin-top: 50px;
-        font: 400 65px/1 "'Merriweather', serif";
+        margin-top: 0px;
+        font: 400 55px/1 "'Merriweather', serif";
     }
 
     .illustrated-stack {
-        max-width: 300px
         display:block;
     }
 }
 
 @media (min-width:992px) {
     p.header-text {
-        margin-top: 90px;
-        font: 400 85px/1 "'Merriweather', serif";
+        margin-top: 10px;
+        font: 400 72px/1 "'Merriweather', serif";
     }
     .illustrated-stack {
         display:block;
