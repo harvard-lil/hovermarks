@@ -73,16 +73,17 @@ p {
 
 p.header-text {
     /*font: 100 65px/1.4 "lato";*/
-    font: 400 85px/1 "'Merriweather', serif";
-    font-size: 75px;
     color: #0a46e1;
-    margin-top: 100px;
     font-family: 'Merriweather', serif;
 }
 
+.illustrated-stack {
+    max-width: 370px;
+}
+
 p.sub-desc {
-    margin-top: -10px;
-    margin-bottom:50px;
+    margin-top: 3px;
+    margin-bottom:30px;
 }
 
 .section-heading {
@@ -92,12 +93,12 @@ p.sub-desc {
 }
 
 .header-row{
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 140px;
 }
 
 .buffer-row {
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 .patterns {
@@ -153,4 +154,52 @@ p.sub-desc {
     color: #0a46e1;
     margin-top: 20px;
     font-weight: 400;
+}
+
+
+
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width:767px) {
+    p.header-text {
+        margin-top: 120px;
+        font: 400 85px/1 "'Merriweather', serif";
+    }
+    .illustrated-stack {
+        display:none;
+    }
+}
+
+@media (min-width:768px) {
+    p.header-text {
+        margin-top: 50px;
+        font: 400 65px/1 "'Merriweather', serif";
+    }
+
+    .illustrated-stack {
+        max-width: 300px
+        display:block;
+    }
+}
+
+@media (min-width:992px) {
+    p.header-text {
+        margin-top: 90px;
+        font: 400 85px/1 "'Merriweather', serif";
+    }
+    .illustrated-stack {
+        display:block;
+    }
+}
+
+@media (min-width:1200px) {
+    p.header-text {
+        margin-top: 90px;
+        font: 400 85px/1 "'Merriweather', serif";
+    }
+    .illustrated-stack {
+        display:block;
+    }
 }
