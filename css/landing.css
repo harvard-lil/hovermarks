@@ -22,7 +22,7 @@
 .footer a {
     font-size: 13px;
     martin-top -10px;
-    color: #444;
+    color: #555;
     float: right;
 }
 /* footer end */
@@ -72,13 +72,14 @@ p {
 }
 
 p.header-text {
-    /*font: 100 65px/1.4 "lato";*/
-    color: #0a46e1;
-    font-family: 'Merriweather', serif;
+    color: #444;
+    font: 400 80px/1 "lato";
+
 }
 
-.illustrated-stack {
-    display: block;
+.header-row img {
+    margin-top: -65px;
+
 }
 
 p.sub-desc {
@@ -87,18 +88,28 @@ p.sub-desc {
 }
 
 .section-heading {
-    color: #00CC00;
-    font: 100 34px/1 "'Merriweather', serif";
-    margin-bottom: 20px;
+    color: #333;
+    font-family: 'lato';
+    font-size: 30px;
+    display: inline;
+    background: #fffd51;
+    box-shadow: 40px 0 0 #fffd51, -7px 0 0 #fffd51;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 36px;
+    font-weight: 400;
+    margin-left: 7px;
+
 }
 
 .header-row{
-    margin-top: 30px;
+    margin-top: 130px;
     margin-bottom: 140px;
 }
 
 .buffer-row {
     margin-top: 140px;
+    margin-bottom: 20px;
 }
 
 .patterns {
@@ -112,13 +123,16 @@ p.sub-desc {
     border-radius: 4px/2px;
     margin: 30px 15px 0 15px;
 
-    -webkit-transition: 400ms ease-in-out; -moz-transition: 400ms ease-in-out; -o-transition: 400ms ease-in-out; transition: 400ms ease-in-out;
-    transition: 400ms ease-in-out;
+    -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 .pattern-container:hover{
-    border-color: #0a46e1;
+    background-color: #4bf74e;
+}
 
+.pattern-container:hover .pattern-link{
+    color: #fff;
 }
 
 .patterns a:hover {
@@ -151,54 +165,28 @@ p.sub-desc {
 
 .pattern-text .pattern-link {
     font-size: 20px;
-    color: #0a46e1;
+    color: #2cafff;
     margin-top: 20px;
-    font-weight: 400;
+    -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
-
-
 
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width:767px) {
-    p.header-text {
-        margin-top: 0px;
-        font: 400 85px/1 "'Merriweather', serif";
-    }
-    .illustrated-stack {
-        display:none;
-    }
+
 }
 
 @media (min-width:768px) {
-    p.header-text {
-        margin-top: 0px;
-        font: 400 55px/1 "'Merriweather', serif";
-    }
 
-    .illustrated-stack {
-        display:block;
-    }
 }
 
 @media (min-width:992px) {
-    p.header-text {
-        margin-top: 10px;
-        font: 400 72px/1 "'Merriweather', serif";
-    }
-    .illustrated-stack {
-        display:block;
-    }
+
 }
 
 @media (min-width:1200px) {
-    p.header-text {
-        margin-top: 90px;
-        font: 400 85px/1 "'Merriweather', serif";
-    }
-    .illustrated-stack {
-        display:block;
-    }
+
 }
