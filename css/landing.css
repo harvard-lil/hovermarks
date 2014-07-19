@@ -73,13 +73,7 @@ p {
 
 p.header-text {
     color: #444;
-    font: 400 80px/1 "lato";
-
-}
-
-.header-row img {
-    margin-top: -65px;
-
+    margin-left: -5px;
 }
 
 p.sub-desc {
@@ -102,18 +96,9 @@ p.sub-desc {
 
 }
 
-.header-row{
-    margin-top: 130px;
-    margin-bottom: 140px;
-}
-
 .buffer-row {
     margin-top: 140px;
     margin-bottom: 20px;
-}
-
-.patterns {
-    /*text-align: center;*/
 }
 
 .pattern-container {
@@ -128,11 +113,15 @@ p.sub-desc {
 }
 
 .pattern-container:hover{
-    background-color: #4bf74e;
+    border-color: #2cafff
 }
 
-.pattern-container:hover .pattern-link{
-    color: #fff;
+.pattern-container:hover img {
+    -webkit-transform: scale(1.04);
+}
+
+.pattern-container:hover .pattern-text{
+    border-color: #2cafff;
 }
 
 .patterns a:hover {
@@ -144,6 +133,8 @@ p.sub-desc {
 }
 .pattern-container img{
     max-width: 150px;
+    -webkit-transition: 100ms ease-in-out; -moz-transition: 100ms ease-in-out; -o-transition: 100ms ease-in-out; transition: 100ms ease-in-out;
+    transition: 100ms ease-in-out;
 }
 
 .pattern-container p{
@@ -156,6 +147,8 @@ p.sub-desc {
     border-top: 1px solid #888;
     margin-top: 30px;
     margin-bottom: -5px;
+    -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 .pattern-text .pattern-title {
@@ -167,26 +160,48 @@ p.sub-desc {
     font-size: 20px;
     color: #2cafff;
     margin-top: 20px;
-    -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
-    transition: 300ms ease-in-out;
 }
 
-
-/* Extra small devices (phones, up to 480px) */
-/* No media query since this is the default in Bootstrap */
-
 @media (max-width:767px) {
-
+    .header-row{
+        margin-top: 20px;
+        margin-bottom: 140px;
+    }
+    p.header-text {
+        font: 400 60px/1 "lato";
+    }
 }
 
 @media (min-width:768px) {
+    .header-row{
+        margin-top: 20px;
+        margin-bottom: 140px;
+    }
 
+    p.header-text {
+        font: 400 80px/1 "lato";
+    }
 }
 
 @media (min-width:992px) {
-
+    .header-row{
+        margin-top: 80px;
+        margin-bottom: 140px;
+    }
 }
 
 @media (min-width:1200px) {
+p.header-text {
+        font: 400 80px/1 "lato";
+    }
+
+    .header-row img {
+        margin-top: -65px;
+    }
+
+    .header-row{
+        margin-top: 130px;
+        margin-bottom: 140px;
+    }
 
 }
