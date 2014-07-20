@@ -89,7 +89,7 @@ p.sub-desc {
     background: #fffd51;
     box-shadow: 40px 0 0 #fffd51, -7px 0 0 #fffd51;
     padding-top: 3px;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     margin-bottom: 36px;
     font-weight: 400;
     margin-left: 7px;
@@ -131,6 +131,7 @@ p.sub-desc {
 .patterns .section-heading{
     margin-bottom: 7px;
 }
+
 .pattern-container img{
     max-width: 150px;
     -webkit-transition: 100ms ease-in-out; -moz-transition: 100ms ease-in-out; -o-transition: 100ms ease-in-out; transition: 100ms ease-in-out;
@@ -181,26 +182,35 @@ p.sub-desc {
     p.header-text {
         font: 400 80px/1 "lato";
     }
+    .header-row img {
+        margin-top: 55px;
+    }
 }
 
 @media (min-width:992px) {
+    p.header-text {
+        font: 400 70px/1 "lato";
+    }
     .header-row{
-        margin-top: 80px;
+        margin-top: 60px;
         margin-bottom: 140px;
+    }
+    .header-row img {
+        margin-top: 10px;
     }
 }
 
 @media (min-width:1200px) {
-p.header-text {
+    p.header-text {
         font: 400 80px/1 "lato";
     }
 
     .header-row img {
-        margin-top: -65px;
+        margin-top: -45px;
     }
 
     .header-row{
-        margin-top: 130px;
+        margin-top: 110px;
         margin-bottom: 140px;
     }
 
