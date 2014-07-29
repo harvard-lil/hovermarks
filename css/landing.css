@@ -90,7 +90,6 @@ p.sub-desc {
     box-shadow: 40px 0 0 #fffd51, -7px 0 0 #fffd51;
     padding-top: 3px;
     padding-bottom: 7px;
-    margin-bottom: 36px;
     font-weight: 400;
     margin-left: 7px;
 
@@ -98,25 +97,21 @@ p.sub-desc {
 
 .buffer-row {
     margin-top: 140px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .pattern-container {
-    background-color: #fcfcfc;
-    padding: 22px;
-    height: 315px;
+    background-color: #fdfdfd;
+    padding: 18px;
+    height: 285px;
     margin-bottom: 20px;
-    border: 2px #ccc solid;
+    border: 1px #ccc solid;
     border-radius: 4px/2px;
     -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
     transition: 300ms ease-in-out;
 }
 
-.pattern-container:first-of-type {
-
-}
-
-.pattern-container:hover{
+.pattern-container:hover {
     border-color: #2cafff
 }
 
@@ -147,9 +142,8 @@ p.sub-desc {
 }
 
 .pattern-text {
-
     border-top: 1px solid #888;
-    margin-top: 30px;
+    margin-top: 55px;
     margin-bottom: -5px;
     -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
     transition: 300ms ease-in-out;
@@ -163,7 +157,7 @@ p.sub-desc {
 .pattern-text .pattern-link {
     font-size: 20px;
     color: #2cafff;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 @media (max-width:767px) {
