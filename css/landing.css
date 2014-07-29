@@ -103,7 +103,6 @@ p.sub-desc {
 .pattern-container {
     background-color: #fcfcfc;
     padding: 18px;
-    height: 285px;
     margin-bottom: 30px;
     border: 1px #ccc solid;
     border-radius: 4px/2px;
@@ -160,7 +159,7 @@ p.sub-desc {
     margin-top: 0px;
 }
 
-@media (max-width:767px) {
+@media (max-width:449px) {
     .header-row{
         margin-top: 20px;
         margin-bottom: 140px;
@@ -168,10 +167,23 @@ p.sub-desc {
     p.header-text {
         font: 400 60px/1 "lato";
     }
-
-     .pattern-container {
-        height: 410px;
+    .pattern-container {
+        height: 340px;
     }
+}
+
+@media (min-width:450px) {
+    .header-row{
+        margin-top: 20px;
+        margin-bottom: 140px;
+    }
+    p.header-text {
+        font: 400 60px/1 "lato";
+    }
+     .pattern-container {
+        height: 400px;
+    }
+
 }
 
 @media (min-width:768px) {
