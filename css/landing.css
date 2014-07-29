@@ -96,7 +96,7 @@ p.sub-desc {
 }
 
 .buffer-row {
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 30px;
 }
 
@@ -104,7 +104,7 @@ p.sub-desc {
     background-color: #fcfcfc;
     padding: 18px;
     height: 285px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: 1px #ccc solid;
     border-radius: 4px/2px;
     -webkit-transition: 300ms ease-in-out; -moz-transition: 300ms ease-in-out; -o-transition: 300ms ease-in-out; transition: 300ms ease-in-out;
