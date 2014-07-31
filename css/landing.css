@@ -213,8 +213,8 @@ p.sub-desc {
 
 @media (min-width:768px) {
     .header-row{
-        margin-top: 90px;
-        margin-bottom: 130px;
+        margin-top: 110px;
+        margin-bottom: 150px;
     }
 
     p.header-text {
@@ -234,8 +234,8 @@ p.sub-desc {
         font: 400 82px/1 "lato";
     }
     .header-row{
-        margin-top: 150px;
-        margin-bottom: 140px;
+        margin-top: 180px;
+        margin-bottom: 170px;
     }
     .header-row img {
         margin-top: -60px;
