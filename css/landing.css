@@ -174,8 +174,8 @@ p.sub-desc {
 
 @media (max-width:399px) {
     .header-row{
-        margin-top: 20px;
-        margin-bottom: 140px;
+        margin-top: 40px;
+        margin-bottom: 160px;
     }
     p.header-text {
         font: 400 60px/1 "lato";
@@ -187,8 +187,8 @@ p.sub-desc {
 
 @media (min-width:400px) {
     .header-row{
-        margin-top: 20px;
-        margin-bottom: 100px;
+        margin-top: 40px;
+        margin-bottom: 120px;
     }
     p.header-text {
         font: 400 60px/1 "lato";
@@ -213,8 +213,8 @@ p.sub-desc {
 
 @media (min-width:768px) {
     .header-row{
-        margin-top: 60px;
-        margin-bottom: 100px;
+        margin-top: 90px;
+        margin-bottom: 130px;
     }
 
     p.header-text {
@@ -234,8 +234,8 @@ p.sub-desc {
         font: 400 82px/1 "lato";
     }
     .header-row{
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 150px;
+        margin-bottom: 140px;
     }
     .header-row img {
         margin-top: -60px;
@@ -256,8 +256,8 @@ p.sub-desc {
     }
 
     .header-row{
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 150px;
+        margin-bottom: 140px;
     }
 
     .pattern-container {
