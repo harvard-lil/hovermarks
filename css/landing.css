@@ -2,7 +2,7 @@
 
 .footer {
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 55px;
 }
 .branding {
     margin-top:20px;
@@ -54,6 +54,10 @@
   height: 100%;
   position: absolute;
 }
+
+.vid-container {
+    margin-bottom: 30px;
+}
 /* video end */
 
 
@@ -82,22 +86,23 @@ p.sub-desc {
 }
 
 .section-heading {
-    color: #333;
+    color: #3db5ff;
     font-family: 'lato';
-    font-size: 30px;
-    display: inline;
-    background: #fffd51;
-    box-shadow: 40px 0 0 #fffd51, -7px 0 0 #fffd51;
-    padding-top: 3px;
-    padding-bottom: 7px;
+    font-size: 36px;
     font-weight: 400;
-    margin-left: 7px;
-
+    margin-left: -2px;
 }
 
-.buffer-row {
-    margin-top: 120px;
-    margin-bottom: 30px;
+.striped-row {
+    /*background: #f7f7f7;*/
+    background-image: url("/img/crossword.png");
+    border: 1px solid #e6e6e6;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 20px 0 5px 0;
+    margin-bottom: 80px;
 }
 
 .pattern-container {
@@ -122,8 +127,16 @@ p.sub-desc {
     border-color: #2cafff;
 }
 
+.patterns {
+    margin-top: 40px;
+}
+
 .patterns a:hover {
     text-decoration: none;
+}
+
+.pattern-title {
+    margin-bottom: 10px;
 }
 
 .pattern-container img{
@@ -159,7 +172,7 @@ p.sub-desc {
     margin-top: 0px;
 }
 
-@media (max-width:449px) {
+@media (max-width:399px) {
     .header-row{
         margin-top: 20px;
         margin-bottom: 140px;
@@ -172,31 +185,43 @@ p.sub-desc {
     }
 }
 
-@media (min-width:450px) {
+@media (min-width:400px) {
     .header-row{
         margin-top: 20px;
-        margin-bottom: 140px;
+        margin-bottom: 100px;
     }
     p.header-text {
         font: 400 60px/1 "lato";
     }
-     .pattern-container {
+    .pattern-container {
+        height: 300px;
+    }
+}
+
+@media (min-width:460px) {
+    .pattern-container {
+        height: 350px;
+    }
+}
+
+@media (min-width:550px) {
+    .pattern-container {
         height: 400px;
     }
-
 }
+
 
 @media (min-width:768px) {
     .header-row{
-        margin-top: 40px;
-        margin-bottom: 120px;
+        margin-top: 60px;
+        margin-bottom: 100px;
     }
 
     p.header-text {
-        font: 400 60px/1 "lato";
+        font: 400 64px/1 "lato";
     }
     .header-row img {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .pattern-container {
@@ -206,11 +231,11 @@ p.sub-desc {
 
 @media (min-width:992px) {
     p.header-text {
-        font: 400 70px/1 "lato";
+        font: 400 82px/1 "lato";
     }
     .header-row{
         margin-top: 100px;
-        margin-bottom: 140px;
+        margin-bottom: 100px;
     }
     .header-row img {
         margin-top: -60px;
@@ -223,16 +248,16 @@ p.sub-desc {
 
 @media (min-width:1200px) {
     p.header-text {
-        font: 400 80px/1 "lato";
+        font: 400 82px/1 "lato";
     }
 
     .header-row img {
-        margin-top: -45px;
+        margin-top: -60px;
     }
 
     .header-row{
-        margin-top: 110px;
-        margin-bottom: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .pattern-container {
