@@ -109,7 +109,6 @@ p.sub-desc {
 .section-heading {
     color: #2cafff;
     font-family: 'lato';
-    font-size: 35px;
     font-weight: 400;
     margin-left: -2px;
 }
@@ -198,34 +197,19 @@ p.sub-desc {
 
 @media (max-width:399px) {
     .header-row{
-        margin-top: 40px;
+        margin-top: 15px;
         margin-bottom: 160px;
     }
     p.header-text {
         font: 400 60px/1 "lato";
     }
 
+    .section-heading {
+        font-size: 30px;
+    }
+
     .striped-row {
         margin-bottom: 160px;
-    }
-
-    .pattern-container {
-        height: 340px;
-    }
-}
-
-@media (min-width:400px) {
-    .header-row{
-        margin-top: 40px;
-        margin-bottom: 120px;
-    }
-
-    p.header-text {
-        font: 400 60px/1 "lato";
-    }
-
-    .striped-row {
-        margin-bottom: 100px;
     }
 
     .pattern-container {
@@ -233,9 +217,40 @@ p.sub-desc {
     }
 }
 
-@media (min-width:460px) {
+@media (min-width:400px) {
+    .header-row{
+        margin-top: 15px;
+        margin-bottom: 80px;
+    }
+
+    .header-row img {
+        margin-top: 70px;
+    }
+
+    p.header-text {
+        font: 400 60px/1 "lato";
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+
+    .striped-row {
+        margin-bottom: 60px;
+    }
+
+    .pattern-container {
+        height: 300px;
+    }
+}
+
+@media (min-width:470px) {
     .pattern-container {
         height: 350px;
+    }
+
+    .section-heading {
+        font-size: 35px;
     }
 }
 
@@ -256,7 +271,7 @@ p.sub-desc {
         font: 400 64px/1 "lato";
     }
     .header-row img {
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .pattern-container {
@@ -269,8 +284,8 @@ p.sub-desc {
         font: 400 82px/1 "lato";
     }
     .header-row{
-        margin-top: 200px;
-        margin-bottom: 180px;
+        margin-top: 175px;
+        margin-bottom: 145px;
     }
     .header-row img {
         margin-top: -60px;
@@ -294,13 +309,8 @@ p.sub-desc {
         margin-top: -60px;
     }
 
-    .header-row{
-        margin-top: 250px;
-        margin-bottom: 250px;
-    }
-
     .striped-row {
-        margin-bottom: 170px;
+        margin-bottom: 140px;
     }
 
     .pattern-container {
