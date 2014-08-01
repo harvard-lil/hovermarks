@@ -121,7 +121,7 @@ p.sub-desc {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 3px;
-    padding: 20px 0 5px 0;
+    padding: 10px 0 5px 0;
 }
 
 .pattern-container {
@@ -204,6 +204,10 @@ p.sub-desc {
         font: 400 60px/1 "lato";
     }
 
+    .header-row img {
+        margin-top: 50px;
+    }
+
     .section-heading {
         font-size: 25px;
     }
@@ -271,7 +275,7 @@ p.sub-desc {
         font: 400 64px/1 "lato";
     }
     .header-row img {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .pattern-container {
@@ -287,12 +291,13 @@ p.sub-desc {
         margin-top: 175px;
         margin-bottom: 145px;
     }
+
     .header-row img {
-        margin-top: -60px;
+        margin-top: -75px;
     }
 
     .striped-row {
-        margin-bottom: 130px;
+        margin-bottom: 120px;
     }
 
     .pattern-container {
@@ -305,13 +310,7 @@ p.sub-desc {
         font: 400 82px/1 "lato";
     }
 
-    .header-row img {
-        margin-top: -60px;
-    }
 
-    .striped-row {
-        margin-bottom: 140px;
-    }
 
     .pattern-container {
         height: 285px;
