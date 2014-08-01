@@ -33,7 +33,7 @@
                 <div class="col-sm-6 col-lg-5 col-lg-offset-1">
                     <p class="header-text">Hovermarks</p>
                     <p class="sub-desc">Highlight collections, in place, using bookmarks that face the spine instead of the cover.</p>
-                    <p>They’re free and easy to make. Print one of the templates below. Fold, cut, trim, and place in a book just like you would a normal bookmark.</p>
+                    <p>They’re free and easy to make. Print one of <a href="#templates">the templates below</a>. Fold, cut, trim, and place in a book just like you would a normal bookmark.</p>
                 </div>
                 <div class="col-sm-6 col-lg-5">
                     <img src="img/hovermarks-shelf.png" class="img-responsive">
@@ -41,7 +41,7 @@
             </div>
         </div> <!-- /container -->
 
-        <div class="row-fluid striped-row">
+        <div class="row-fluid striped-row" id="templates">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-md-10 col-lg-offset-1">
@@ -148,14 +148,25 @@
         </div> <!-- /container -->
 
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script src="js/jquery-1.11.1.min.js"></script>
 
-        ga('create', 'UA-18807005-7', 'auto');
-        ga('send', 'pageview');
-    </script>
-  </body>
+        <script>
+            $('a').click(function(){
+                $('html, body').animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top
+                }, 500);
+                return false;
+            });
+        </script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-18807005-7', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
 </html>
