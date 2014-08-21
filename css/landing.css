@@ -111,6 +111,7 @@ p.sub-desc {
     font-family: 'lato';
     font-weight: 400;
     margin-left: -2px;
+    margin-top: 5px;
 }
 
 .striped-row {
@@ -127,7 +128,7 @@ p.sub-desc {
 .pattern-container {
     background-color: #fff;
     padding: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     border: 1px #ccc solid;
     border-radius: 4px/2px;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
@@ -240,7 +241,7 @@ p.sub-desc {
     }
 
     .striped-row {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     .pattern-container {
@@ -297,7 +298,7 @@ p.sub-desc {
     }
 
     .striped-row {
-        margin-bottom: 120px;
+        margin-bottom: 130px;
     }
 
     .pattern-container {
