@@ -76,7 +76,7 @@
 }
 
 a {
-    color: #fa70ba;
+    color: #FF4548;
     border-bottom: 0px solid #fff;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
     transition: 250ms ease-in-out;
@@ -92,9 +92,9 @@ a:hover {
 
 p {
     color: #666;
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 28px;
     font-weight: 300;
 }
@@ -105,8 +105,7 @@ p.header-text {
 }
 
 p.sub-desc {
-    margin-top: 3px;
-    margin-bottom:30px;
+    margin-bottom:15px;
 }
 
 .section-heading {
@@ -114,11 +113,16 @@ p.sub-desc {
     font-family: 'lato';
     font-weight: 400;
     margin-left: -2px;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.video-row .section-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .striped-row {
-    /*background: #f7f7f7;*/
     background-image: url("../img/crossword.png");
     border: 1px solid #e6e6e6;
     -webkit-box-sizing: border-box;
@@ -131,7 +135,7 @@ p.sub-desc {
 .pattern-container {
     background-color: #fff;
     padding: 18px;
-    margin-bottom: 24px;
+    margin-bottom: 35px;
     border: 1px #ccc solid;
     border-radius: 4px/2px;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
@@ -139,7 +143,7 @@ p.sub-desc {
 }
 
 .pattern-container:hover {
-    border-color: #555;
+    border-color: #999;
 }
 
 .pattern-container:hover img {
@@ -162,6 +166,7 @@ p.sub-desc {
     max-width: 90%;
     display:block;
     margin:auto;
+    margin-top: 5px;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
     transition: 250ms ease-in-out;
 }
@@ -173,8 +178,8 @@ p.sub-desc {
 }
 
 .pattern-text {
-    border-top: 1px solid #888;
-    margin-top: 55px;
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
     margin-bottom: -5px;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
     transition: 250ms ease-in-out;
@@ -183,12 +188,13 @@ p.sub-desc {
 .pattern-text .pattern-title {
     font-size: 17px;
     margin-top: 6px;
+    
 }
 
 .pattern-text .pattern-link {
     font-size: 20px;
-    color: #fa70ba;
-    margin-top: 0px;
+    color: #FF4548;
+    margin-top: 40px;
     -webkit-transition: 250ms ease-in-out; -moz-transition: 250ms ease-in-out; -o-transition: 250ms ease-in-out; transition: 250ms ease-in-out;
     transition: 250ms ease-in-out;
 }
@@ -206,6 +212,7 @@ p.sub-desc {
     }
     p.header-text {
         font: 400 60px/1 "lato";
+        margin-bottom: 30px;
     }
 
     .header-row img {
@@ -217,7 +224,8 @@ p.sub-desc {
     }
 
     .striped-row {
-        margin-bottom: 80px;
+        margin-top: 55px;
+        margin-bottom: 80;
     }
 
     .pattern-container {
@@ -226,17 +234,17 @@ p.sub-desc {
 }
 
 @media (min-width:400px) {
-    .header-row{
-        margin-top: 15px;
+    .header-row {
         margin-bottom: 80px;
     }
 
     .header-row img {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     p.header-text {
         font: 400 60px/1 "lato";
+        margin-bottom: 45px;
     }
 
     .section-heading {
@@ -244,6 +252,7 @@ p.sub-desc {
     }
 
     .striped-row {
+        margin-top: 55px;
         margin-bottom: 70px;
     }
 
@@ -272,7 +281,6 @@ p.sub-desc {
 @media (min-width:768px) {
     .header-row{
         margin-top: 110px;
-        margin-bottom: 110px;
     }
 
     p.header-text {
@@ -280,6 +288,11 @@ p.sub-desc {
     }
     .header-row img {
         margin-top: 10px;
+    }
+    
+    .striped-row {
+        margin-top: 55px;
+        margin-bottom: 135px;
     }
 
     .pattern-container {
@@ -291,17 +304,17 @@ p.sub-desc {
     p.header-text {
         font: 400 82px/1 "lato";
     }
-    .header-row{
-        margin-top: 200px;
-        margin-bottom: 140px;
+    .header-row {
+        margin-top: 175px;
     }
 
     .header-row img {
-        margin-top: -75px;
+        margin-top: -52px;
     }
 
     .striped-row {
-        margin-bottom: 130px;
+        margin-top: 55px;
+        margin-bottom: 135px;
     }
 
     .pattern-container {
@@ -313,8 +326,6 @@ p.sub-desc {
     p.header-text {
         font: 400 82px/1 "lato";
     }
-
-
 
     .pattern-container {
         height: 285px;
