@@ -123,7 +123,7 @@ p.sub-desc {
 }
 
 .striped-row {
-    background-image: url("../img/brillant.png");
+    background-image: url("../img/subtle_dots.png");
     border: 1px solid #e6e6e6;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -197,24 +197,19 @@ p.sub-desc {
 @media (max-width:399px) {
     .header-row{
         margin-top: 20px;
-        margin-bottom: 80px;
-    }
-    p.header-text {
-        font: 400 60px/1 "lato";
         margin-bottom: 30px;
     }
-
-    .header-row img {
-        margin-top: -52px;
+    p.header-text {
+        font: 400 50px/1 "lato";
+        margin-bottom: 30px;
     }
-
     .section-heading {
         font-size: 25px;
     }
 
     .striped-row {
-        margin-top: 55px;
-        margin-bottom: 80;
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
 
     .pattern-container {
@@ -290,12 +285,16 @@ p.sub-desc {
     }
 
     .header-row{
-        margin-top: 50px;
-        margin-bottom: 80px;
+        margin-top: 60px;
+        margin-bottom: 40px;
     }
 
     .header-row img {
         margin-top: 20px;
+    }
+
+    .striped-row {
+        margin-bottom: 80px;
     }
 
     .pattern-container {
@@ -332,7 +331,7 @@ p.sub-desc {
     }
 
     .header-row {
-        margin-top: 175px;
+        margin-top: 150px;
     }
 
     .header-row img {
@@ -341,7 +340,7 @@ p.sub-desc {
 
     .striped-row {
         margin-top: 55px;
-        margin-bottom: 135px;
+        margin-bottom: 100px;
     }
 
     .pattern-container {
