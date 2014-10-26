@@ -219,8 +219,8 @@ p.sub-desc {
 
 @media (min-width:400px) {
     .header-row{
-        margin-top: 25px;
-        margin-bottom: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .header-row img {
@@ -285,8 +285,8 @@ p.sub-desc {
     }
 
     .header-row{
-        margin-top: 60px;
-        margin-bottom: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 
     .header-row img {
@@ -308,15 +308,15 @@ p.sub-desc {
     }
     
     .header-row {
-        margin-top: 135px;
+        margin-top: 125px;
     }
 
     .header-row img {
-        margin-top: -52px;
+        margin-top: -45px;
     }
 
     .striped-row {
-        margin-top: 15px;
+        margin-top: 45px;
         margin-bottom: 95px;
     }
 
